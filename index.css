@@ -1,0 +1,49 @@
+.bank-balance-display table{
+    border: 2px solid black;
+}
+.details{
+    display:none;
+}
+.grey{
+    background-color: grey;
+}
+th{
+    background-color: navy;
+    color: whitesmoke;
+}
+table{
+    border-spacing: 0px;
+    width:100%;
+}
+th,td{
+    text-align: center;
+    padding:10px;
+    height:50px;
+
+}
+table, tr, td, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td, th, tr{
+    padding: 10px;
+}
+td input{
+    width: 90%;
+}
+button{
+    margin:10px;
+    background-color: brown;
+    color: wheat;
+    height:40px;
+    width:160px;
+}
+#entries{
+    margin-bottom: 10px;
+   }
+ input{
+       margin-top: 10px;
+       margin-bottom: 10px;
+       border-radius: 10px;
+       border:2px solid brown;
+   }

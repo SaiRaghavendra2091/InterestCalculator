@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Bank Interest Management</title>
+</head>
+<body>
+    <div class="bank-balance-display">
+        <div class="menu">
+            <button onclick="displayDetails()"> +NewEntry </button>
+            <div class="details" id="Entries">
+                <div>
+                    <label for="name">Name :</label>
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                </div>
+                <div>
+                    <label for="balance"> Balance :</label>
+                    <input type="number" placeholder="Enter Your bank balance" id="balance">
+                </div>
+                <div>
+                    <button onclick="addEntry()"> Update Details </button>
+                </div>
+            </div>
+        </div>
+
+        <table id="table">
+            <tr>
+                <th>S.No</th>
+                <th>Account Holder Name</th>
+                <th>Current Account Balance</th>
+                <th>Balance After Interest</th>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
